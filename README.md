@@ -10,7 +10,7 @@ The Twelve factor app is a methodology for building software-as-a-service apps t
 
 ![image](12A.png)
 
-Since we have a flask app the first thing we shoild do is install flask
+Since we have a flask app the first thing we should do is install flask
 
 ```bash
 pip install flask

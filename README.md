@@ -8,7 +8,7 @@ The Twelve factor app is a methodology for building software-as-a-service apps t
 - Minimize divergence
 - Can scale up
 
-![image](12A.png)
+![image](imgs/12A.png)
 
 Since we have a flask app the first thing we should do is install flask
 
@@ -22,9 +22,12 @@ to upgrade pip you can run
 pip install --upgrade pip
 ```
 
+![image](imgs/12A-2.png)
+
 - I Codebase : You should have one codebase
 
 - II Dependencies : Explicitly declare and isolate dependencies
+A 12 factor app never relies on implicit existence of system-wide packages
 
 - III Config : Store config in the environment
 

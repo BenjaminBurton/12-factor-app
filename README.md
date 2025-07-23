@@ -10,26 +10,26 @@ The Twelve factor app is a methodology for building software-as-a-service apps t
 
 ![image](12A.png)
 
-## I Codebase : You should have one codebase
+- I Codebase : You should have one codebase
 
-## II Dependencies : Explicitly declare and isolate dependencies
+- II Dependencies : Explicitly declare and isolate dependencies
 
-## III Config : Store config in the environment
+- III Config : Store config in the environment
 
-## IV Backing Services : Backing services to treat Backing services as attached resources
+- IV Backing Services : Backing services to treat Backing services as attached resources
 
-## V Build, Release, Run : Strictly separate build and run stages
+- V Build, Release, Run : Strictly separate build and run stages
 
-## VI Processes : To execute the app as one or more stateless processes
+- VI Processes : To execute the app as one or more stateless processes
 
-## VII Port Binding : Export services by Port Bindning
+- VII Port Binding : Export services by Port Bindning
 
-## VIII Concurrency : To scale out by the app process model
+- VIII Concurrency : To scale out by the app process model
 
-## IX Disposability : Maximize robustness with fast start up and graceful shutdown
+- IX Disposability : Maximize robustness with fast start up and graceful shutdown
 
-## X Dev/Prod Parity : Keep development, staging and, production as similar as possible
+- X Dev/Prod Parity : Keep development, staging and, production as similar as possible
 
-## XI Logs : Treat logs as event streams
+- XI Logs : Treat logs as event streams
 
-## XII Admin Processes : Run Admin or management task as one off processes
+- XII Admin Processes : Run Admin or management task as one off processes

@@ -24,6 +24,34 @@ pip install --upgrade pip
 
 ![image](imgs/12A-2.png)
 
+For our Dockerfile
+
+```bash
+FROM python:3.10-alpine # creates a image from the python base image 
+
+WORKDIR /12-factor-app # sets the right working directory 
+
+COPY requirements.txt . # copies the requirements.txt to the working directory 
+
+RUN pip install -r requirements.txt --no-cache-dir # installs the dependencies 
+
+COPY . /12-factor-app/ # copies the application code into the image 
+
+CMD python app.py # defines the command to run the application using the CMD instruction 
+```
+
+running the docker build command we build an image
+
+```bash
+docker build . . .
+```
+
+and by running the docker run command we run one instance of our application
+
+```bash
+docker run . . .
+```
+
 - I Codebase : You should have one codebase
 
 - II Dependencies : Explicitly declare and isolate dependencies

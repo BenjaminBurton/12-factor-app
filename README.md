@@ -16,18 +16,24 @@ The Twelve factor app is a methodology for building software-as-a-service apps t
 A 12 factor app never relies on implicit existence of system-wide packages
 
 - III Config : Store config in the environment
+Twelve factor app stores config in environment variables
 
-- IV Backing Services : Backing services to treat Backing services as attached resources
+- IV Backing Services : Treat Backing services as attached resources
 
 - V Build, Release, Run : Strictly separate build and run stages
+Twelve factor app uses strict separation between the build, release, and run stages.
 
 - VI Processes : To execute the app as one or more stateless processes
+Twelve factor processes are stateless and share-nothing
+Sticky sessions are a violation of Twelve-factor and should never be used or relied upon.
 
 - VII Port Binding : Export services by Port Bindning
+Twelve factor app is completely self-contained and does not rely on a specific server to function
 
 - VIII Concurrency : To scale out by the app process model
 
 - IX Disposability : Maximize robustness with fast start up and graceful shutdown
+Twelve factor app's processes are disposable, meaning they can be started or stopped at a moment's notice
 
 - X Dev/Prod Parity : Keep development, staging and, production as similar as possible
 
